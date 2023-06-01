@@ -1,0 +1,57 @@
+@charset "utf-8"
+
+@import "../variables/breakpoints"
+
+//mobile
+@mixin mobile
+    @media (max-width: $smallDesktop - 1px)
+        @content
+
+//tablets&desktops
+@mixin desktops_min
+    @media (min-width: $smallDesktop)
+        @content
+
+//small desktops
+@mixin small_desktops
+    @media (min-width: $smallDesktop) and ( max-width: $mediumDesktop - 1px) 
+        @content
+
+@mixin small_desktops_min
+    @media (min-width: $smallDesktop)
+        @content
+
+@mixin small_desktops_max
+    @media (max-width: $mediumDesktop - 1px)
+        @content
+
+//medium desktops
+@mixin medium_desktops
+    @media (min-width: $mediumDesktop) and ( max-width: $largeDesktop - 1px) 
+        @content
+
+@mixin medium_desktops_min
+    @media (min-width: $mediumDesktop)
+        @content
+
+@mixin medium_desktops_max
+    @media (max-width: $largeDesktop - 1px)
+        @content
+
+//large desktops
+@mixin large_desktops
+    @media (min-width: $largeDesktop) and ( max-width: $extraLargeDesktop - 1px)
+        @content
+
+@mixin large_desktops_min
+    @media (min-width: $largeDesktop)
+        @content
+
+@mixin large_desktops_max
+    @media (max-width: $extraLargeDesktop - 1px)
+        @content
+
+// extra large desktops
+@mixin large_desktops
+    @media (min-width: $extraLargeDesktop)
+        @content

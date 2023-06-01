@@ -1,0 +1,13 @@
+@charset "utf-8";
+@import "../variables/colors";
+
+$colors:(
+    'primary': (
+        'light': $blue,
+        'dark': $indigo,
+    ),
+    'secondary': (
+        'light': $gray,
+        'dark': $indigo,
+    ),
+);

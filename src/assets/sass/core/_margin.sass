@@ -1,0 +1,52 @@
+@charset "utf-8"
+
+$value: 44
+
+@while $value > 0
+    .m-#{$value}
+        margin: #{$value}px
+
+    .mt-#{$value}
+        margin-top: #{$value}px
+
+    .mb-#{$value}
+        margin-bottom: #{$value}px
+
+    .mr-#{$value}
+        margin-right: #{$value}px
+
+    .ml-#{$value}
+        margin-left: #{$value}px
+    
+    .mx-#{$value}
+        margin-top: #{$value}px
+        margin-bottom: #{$value}px
+    
+    .my-#{$value}
+        margin-left: #{$value}px
+        margin-right: #{$value}px
+
+    .p-#{$value}
+        padding: #{$value}px
+
+    .pt-#{$value}
+        padding-top: #{$value}px
+
+    .pb-#{$value}
+        padding-bottom: #{$value}px
+
+    .pr-#{$value}
+        padding-right: #{$value}px
+
+    .pl-#{$value}
+        padding-left: #{$value}px
+    
+    .px-#{$value}
+        padding-top: #{$value}px
+        padding-bottom: #{$value}px
+    
+    .py-#{$value}
+        padding-left: #{$value}px
+        padding-right: #{$value}px
+
+    $value: $value - 2

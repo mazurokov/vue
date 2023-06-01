@@ -1,0 +1,9 @@
+@charset "utf-8"
+
+$value: 12
+
+@while $value > 0
+    .col-#{$value}
+        width: calc((100% / 12) * #{$value})
+
+    $value: $value - 1

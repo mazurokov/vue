@@ -1,0 +1,32 @@
+@charset "utf-8"
+
+@import "./mixin/mixin"
+
+@mixin btnHover
+  &:not(:disabled):hover:not(.disabled):hover
+    @content
+
+%commonButton
+    display: inline-flex
+    gap: 8px
+    align-items: center
+    background-color: unset
+    border: unset
+    padding: 4px 16px
+    font-size: 16px
+    font-weight: 500
+    text-decoration: none
+    border-radius: 8px
+    border: 1px solid transparent
+    &.ss
+        min-height: 28px
+    &.sm
+        min-height: 32px
+    &.sl
+        min-height: 44px
+    &.sxl
+        min-height: 52px
+
+.btn
+    @extend %commonButton
+
