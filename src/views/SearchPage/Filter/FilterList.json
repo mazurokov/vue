@@ -1,0 +1,99 @@
+[
+    {
+        "name": "Clothing & Shoes",
+        "icon": [ 
+            {
+                "xlink": "hanger"
+            }
+        ]
+    },
+    {
+        "name": "Entertainment",
+        "icon": [ 
+            {
+                "xlink": "cinema"
+            }
+        ]
+    },
+    {
+        "name": "Music",
+        "icon": [ 
+            {
+                "xlink": "melody"
+            }
+        ]
+    },
+    {
+        "name": "Sport & Lifestyle",
+        "icon": [ 
+            {
+                "xlink": "fitness"
+            }
+        ]
+    },
+    {
+        "name": "Pets",
+        "icon": [ 
+            {
+                "xlink": "pets"
+            }
+        ]
+    },
+    {
+        "name": "Kitchen Accessories",
+        "icon": [ 
+            {
+                "xlink": "kitchen"
+            }
+        ]
+    },
+    {
+        "name": "Travel Equipment",
+        "icon": [ 
+            {
+                "xlink": "binoculars"
+            }
+        ]
+    },
+    {
+        "name": "Growing & Garden",
+        "icon": [ 
+            {
+                "xlink": "barley"
+            }
+        ]
+    },
+    {
+        "name": "Electrical Tools",
+        "icon": [ 
+            {
+                "xlink": "lightning"
+            }
+        ]
+    },
+    {
+        "name": "Mother Care",
+        "icon": [ 
+            {
+                "xlink": "pram"
+            }
+        ]
+    },
+    {
+        "name": "Toys & Entertainment",
+        "icon": [ 
+            {
+                "xlink": "radiation"
+            }
+        ]
+    },
+    {
+        "name": "Vintage",
+        "icon": [ 
+            {
+                "xlink": "ship-wheel"
+            }
+        ]
+    }
+    
+]

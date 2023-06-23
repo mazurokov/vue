@@ -1,0 +1,20 @@
+@charset "utf-8"
+@import "@/assets/sass/core/mixin/mixin"
+
+[class*="badge-"]
+    padding: 6px 12px
+    user-select: none
+    
+    &.ss
+        height: auto
+    &.sm
+        +body-ss
+        height: 32px
+        border-radius: 16px
+
+    &.sl
+        height: auto
+    
+
+.badge-gray
+    background-color: $whiteWhale

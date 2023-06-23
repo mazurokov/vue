@@ -1,0 +1,183 @@
+[
+    {
+        "imgSrc": "./images/Image-0.png",
+        "description": "Vintage Typewriter to post awesome stories about UI design and webdev.",
+        "price": [
+            {
+                "value": "$49.50"
+            }
+        ],
+        "descriptionExtra": "Eligible for Shipping To Mars or somewhere else",
+        "estimate": [
+            {
+                "value": "4.05"
+            }
+        ]
+    },
+    {
+        "imgSrc": "./images/Image-1.png",
+        "description": "Lee Pucker design. Leather botinki for handsome designers. Free shipping.",
+        "price": [
+                {
+                    "value": "$13.95"
+                }
+            ],
+        "descriptionExtra": "1258 bids, 359 watchers $5.95 for shipping",
+        "estimate": [
+            {
+                "value": "4.56"
+            }
+        ]
+    },
+    {
+        "imgSrc": "./images/Image-2.png",
+        "description": "Timesaving kitten to save months on development. Playful, cute, cheap!",
+        "price": [
+                {
+                    "value": "$128.99"
+                }
+            ],
+        "descriptionExtra": "Eligible for nothing :(",
+        "estimate": [
+            {
+                "value": "4.87"
+            }
+        ]
+    },
+    {
+        "imgSrc": "./images/Image-3.png",
+        "description": "Plastic useless plugs and tubes for high-fidelity prototyping. Fit & Eat!",
+        "price": [
+                {
+                    "value": "$12.48",
+                    "discount": "50% OFF"
+                }
+            ],
+        "descriptionExtra": "Wordwide shitting available Buyers protection possible!",
+        "estimate": [
+            {
+                "value": "4.99"
+            }
+        ]
+    },
+    {
+        "imgSrc": "./images/Image-4.png",
+        "description": "Creativity stimulating lotion. Drink every morning to generate better ideas!",
+        "price": [
+                {
+                    "value": "$12.48"
+                }
+            ],
+        "descriptionExtra": "Wordwide shitting available Buyers protection possible!",
+        "estimate": [
+            {
+                "value": "4.99"
+            }
+        ]
+    },
+    {
+        "imgSrc": "./images/Image-5.png",
+        "description": "Prototyping items to create a lot if useless things",
+        "price": [
+                {
+                    "value": "$128.99"
+                }
+            ],
+        "descriptionExtra": "Showcasing onHovered state",
+        "estimate": [
+            {
+                "value": "4.87"
+            }
+        ]
+    },
+    {
+        "imgSrc": "./images/Image-6.png",
+        "description": "John Von Ebalkin SPRING",
+        "price": [
+                {
+                    "value": "$13.95"
+                }
+            ],
+        "descriptionExtra": "1258 bids, 359 watchers $5.95 for shipping",
+        "estimate": [
+            {
+                "value": "4.56"
+            }
+        ]
+    },
+    {
+        "imgSrc": "./images/Image-7.png",
+        "description": "Envelope, Stripes, Pencil and etc. Purchase this kit today and feel OKAY",
+        "price": [
+                {
+                    "value": "$9.50"
+                }
+            ],
+        "descriptionExtra": "Eligible for Shipping To Mars or somewhere else",
+        "estimate": [
+            {
+                "value": "4.77"
+            }
+        ]
+    },
+    {
+        "imgSrc": "./images/Image-8.png",
+        "description": "Professional teadrinking set for every designer and developer",
+        "price": [
+                {
+                    "value": "$128.99"
+                }
+            ],
+        "descriptionExtra": "Eligible for nothing :(",
+        "estimate": [
+            {
+                "value": "4.87"
+            }
+        ]
+    },
+    {
+        "imgSrc": "./images/Image-9.png",
+        "description": "One string Bonsai description",
+        "price": [
+                {
+                    "value": "$11.68"
+                }
+            ],
+        "descriptionExtra": "Wordwide shifting available Buyers protection possible!",
+        "estimate": [
+            {
+                "value": "4.99"
+            }
+        ]
+    },
+    {
+        "imgSrc": "./images/Image-10.png",
+        "description": "Simply best item in town to shine bright with your Nine Inch Nails",
+        "price": [
+                {
+                    "value": "$1.25"
+                }
+            ],
+        "descriptionExtra": "Eligible for Shipping To Mars or somewhere else",
+        "estimate": [
+            {
+                "value": "4.77"
+            }
+        ]
+    },
+    {
+        "imgSrc": "./images/Image-11.png",
+        "description": "KISTOCHKI & KRASIBO. Top cosmetics brand from Chelyabinsk is here!",
+        "price": [
+                {
+                    "value": "$23.25"
+                }
+            ],
+        "descriptionExtra": "1258 bids, 359 watchers $5.95 for shipping",
+        "estimate": [
+            {
+                "value": "4.56"
+            }
+        ]
+    }
+]

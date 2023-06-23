@@ -1,0 +1,49 @@
+@charset "utf-8"
+@import "@/assets/sass/core/mixin/mixin"
+
+    
+.cards-wrapper
+    display: flex
+    flex-wrap: wrap
+    gap: 16px
+
+    >*  
+        +small_desktops
+            +calcWidth(2, 16px)
+        +medium_desktops
+            +calcWidth(3, 16px)
+        +large_desktops_min
+            +calcWidth(4, 16px)
+
+.product-card
+    .description
+        +body-sm
+        +ellipsis(3)
+        color: $aswadBlack
+        line-height: 24px
+    .price
+        +body-sl
+        color: rgba(0, 0, 0, 0.87)
+        font-weight: 700
+        line-height: 36px
+
+    .description-extra
+        +body-ss
+        +ellipsis(2)
+        color: $infamous
+
+    .estimation
+        display: flex
+        gap: 14px
+
+        &-icon
+            stroke: $theNewBlack
+
+        &-btn
+            +body-ss
+            +round-ss
+            padding-left: 7px
+            padding-right: 7px
+            border: 1px solid $pastelBlue
+            gap: initial
+            font-weight: 500

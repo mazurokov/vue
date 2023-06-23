@@ -1,0 +1,28 @@
+@charset "utf-8"
+
+@mixin round($round: 16px)
+    border-radius: $round
+//
+@mixin round-ss
+    +round(4px)
+
+%round-ss
+    +round-ss
+//
+@mixin round-sm
+    +round(8px)
+
+%round-sm
+    +round-sm
+//
+@mixin round-sl
+    +round(8px)
+
+%round-sl
+    +round-sl
+//
+@mixin round-sel
+    +round(16px)
+
+%round-sel
+    +round-sel

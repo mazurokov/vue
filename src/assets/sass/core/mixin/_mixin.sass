@@ -1,3 +1,16 @@
 @charset "utf-8"
 
+@import "./font-size"
 @import "./media-query"
+@import "./round"
+@import "../variables/colors"
+
+@mixin ellipsis($line-clamp: 1)
+    -webkit-line-clamp: $line-clamp
+    -webkit-box-orient: vertical
+    display: -webkit-box
+    overflow: hidden
+    text-overflow: ellipsis
+
+@mixin calcWidth($column: 3, $gap: 16px)
+    width: calc((100% - ($gap * ($column - 1))) / $column) 

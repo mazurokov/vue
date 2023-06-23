@@ -1,0 +1,28 @@
+@charset "utf-8"
+
+@import "@/assets/sass/core/mixin/mixin"
+
+.filter 
+    display: flex
+    gap: 4px
+
+    >*
+        align-self: flex-start
+
+    .item
+        padding: 8px 4px 4px
+        transition: box-shadow .2s ease
+        &:hover
+            +desktops_min
+                box-shadow: 0px 2px 4px rgba(59, 69, 123, 0.2), 0 4px 8px rgba(92, 107, 192, 0.2)
+
+        .icon use 
+            fill: $perfectStorm
+
+        &.active 
+            color: $haileyBlue
+            
+            .icon use
+                fill: $haileyBlue
+
+    
